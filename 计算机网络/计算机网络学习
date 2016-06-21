@@ -1,0 +1,19 @@
+不在同一个子网的两台主机怎么通信？
+
+
+mac中的以下命令：
+ipconfig /all
+route print
+tracert www.facebook.com
+nslookup www.facebook.com
+    ｜
+    ｜对应
+    ｜
+ifconfig
+route -v get http://www.facebook.com
+traceroute http://www.facebook.com
+nslookup http://www.facebook.com
+
+
+以太网、令牌环和NetBIOS的区别？
+
